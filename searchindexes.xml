@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>VSCode插件开发报错处理</title><url>/post/1_vscode_yo_code.html</url><categories><category>VSCode插件开发</category></categories><tags><tag>VSCode插件开发</tag></tags><content type="html"><![CDATA[  整理VSCode插件开发过程中遇到的错误及其处理方式，如运行 yo code 报错 Unexpected token '(' 等问题
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>个人网站搭建 (一) 环境搭建</title><url>/post/2_1_hugo_my_site_next.html</url><categories><category>个人网站搭建</category></categories><tags><tag>个人网站搭建</tag></tags><content type="html"><![CDATA[  搭建个人网站的工具采用Hugo, Hugo是由Go语言实现的静态网站生成器。 简单、易用、高效、易扩展、快速部署。 类似的工具还有jekyll、hexo等，之所以选择Hugo是因为Hugo的性能是这几个中最高的
+主题选用NEXT主题, 也就是本网站所用的主题; NEXT主题功能很完善，可配置项也很多，非常推荐用
+以下包找不到,或下载有困难,可以通过我的个人微信公众号回复关键词下载, 如无对应资源也可以通过微信公众号联系我
+注: 本文环境win11
+Hugo安装二进制安装到 Hugo Releases下载对应的操作系统版本的Hugo二进制文件（hugo或者hugo.exe）
+将 Hugo 添加到环境变量中, 我的路径是&quot;D:\hugo_0.113.0_windows-amd64&quot;
+Git安装git主要用于版本控制,下载主题时会用到,建议使用Git;当然直接下载主题压缩包,再解压到指定目录也是可以的
+GitHugo 快速上手创建个人网站选择一个目录,打开命令指令符
+$ hugo new site myblog 进入创建的 myblog 目录，可以看到生成的目录结构
+archetypes default.md config.toml content data layouts static themes 选择主题创建完网站之后，我们可以在 Hugo 官方的 主题商店选择一个主题, 并下载下来使用。
+在这里我们选择NEXT主题, 在 myblog/themes 目录下, 通过git clone下载主题
+$ cd myblog $ git submodule add https://github.com/hugo-next/hugo-theme-next.git themes/hugo-theme-next $ cp themes/hugo-theme-next/exampleSite/config.yaml . $ mv config.toml config.toml.backup 本地预览$ cd myblog $ hugo server Start building sites … hugo v0.114.0-9df2ec7988e5a217a14901cc76c0b7e76b2e9f02+extended windows/amd64 BuildDate=2023-06-19T17:01:43Z VendorInfo=gohugoio | ZH-CN -------------------+-------- Pages | 97 Paginator pages | 1 Non-page files | 1 Static files | 50 Processed images | 0 Aliases | 37 Sitemaps | 1 Cleaned | 0 Built in 5365 ms Watching for changes in F:\VS_DOC\xxxx.io\quickstart\{archetypes,assets,content,data,layouts,static,themes} Watching for config changes in F:\VS_DOC\xxxx.io\quickstart\config.yaml Environment: &#34;development&#34; Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at //localhost:1313/ (bind address 127.0.0.1) Press Ctrl+C to stop 打开浏览器，在地址栏输入 http://127.0.0.1:1313/
+查看主题效果，祝你好运！🎉🎉🎉
+修改配置hugo的配置文件是 config.toml , next主题提供了很多可配置项 , 而且注释非常详细 , 主要要修改的 有下面几项
+baseURL = / title = &ldquo;MyBlog&rdquo; theme = &ldquo;hugo-theme-next&rdquo; 新增文章默认的文章将存储在 ./content/post 中 , 主题已经配置了默认的文章模板 , 建议使用如下 Hugo 命令快速创建新的文章：
+$ hugo new post/hello-world.md NEXT主题同一目录下也有很多的博客文档实例, 下面是 table-of-conten.md 的文章头部
+--- title: &#34;文章目录导航&#34; description: &#34;描述下 NexT 主题下的文章目录导航效果。&#34; keywords: &#34;文章,目录,导航&#34; date: 2022-06-08T21:12:52+08:00 lastmod: 2022-06-08T21:12:52+08:00 categories: - 示例文章 tags: - 目录 - 导航 - 博客 toc: true url: post/table-of-content.html --- 网站发布写完文章后, 在 myblog 目录下运行指令
+$ hugo 部署到线上最简单的方法就是将生成的 public 目录拷贝到指定站点
+  ]]></content></entry><entry><title>VSCode插件开发报错处理</title><url>/post/1_vscode_yo_code.html</url><categories><category>VSCode插件开发</category></categories><tags><tag>VSCode插件开发</tag></tags><content type="html"><![CDATA[  整理VSCode插件开发过程中遇到的错误及其处理方式，如运行 yo code 报错 Unexpected token '(' 等问题
 1.运行yo code问题1.1 运行yo code报错Unexpected token &lsquo;(&rsquo;1.1.1 问题描述运行环境
 OS:Win11 node.js : v12.19.0. npm : 6.14.8 运行
 F:&gt;yo code Error code Unexpected token &#39;(&#39;` 1.1.2 问题原因node.js版本过低
@@ -19,7 +37,7 @@ Hugo 建站
 部署到服务器
 $ hugo deploy 更多信息：
 Hugo 发布
-祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>Hello</title><url>/posts/hello/</url><categories/><tags/><content type="html"></content></entry><entry><title>如何搭建个hugo网站</title><url>/posts-jiu-noused/inde321321x/</url><categories/><tags/><content type="html"></content></entry><entry><title>如何搭建个hugo网站</title><url>/posts-jiu-noused/my-first-post/</url><categories/><tags/><content type="html"> Introduction
+祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>Hello</title><url>/post/hello/</url><categories/><tags/><content type="html"></content></entry><entry><title>如何搭建个hugo网站</title><url>/posts-jiu-noused/my-first-post/</url><categories/><tags/><content type="html"> Introduction
 This is bold text, and this is emphasized text.
 Visit the Hugo
 website!</content></entry><entry><title>没有H1-6标题头和评论的文章</title><url>/post/no-header-title.html</url><categories><category>示例文章</category></categories><tags><tag>toc</tag><tag>标题</tag></tags><content type="html"> 刘慈欣2018克拉克奖获奖感言（部分内容节选）。

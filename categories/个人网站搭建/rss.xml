@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>个人网站搭建 on 一匹大懒虫</title><link>/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link><description>Recent content in 个人网站搭建 on 一匹大懒虫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 19 Oct 2023 21:02:32 +0800</lastBuildDate><atom:link href="/categories/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/rss.xml" rel="self" type="application/rss+xml"/><item><title>个人网站搭建 (一) 环境搭建</title><link>/post/2_1_hugo_my_site_next.html</link><pubDate>Thu, 19 Oct 2023 21:02:32 +0800</pubDate><guid>/post/2_1_hugo_my_site_next.html</guid><description>&lt;p>搭建个人网站的&lt;code>工具&lt;/code>采用
+&lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+Hugo
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>, Hugo是由Go语言实现的静态网站生成器。
+简单、易用、高效、易扩展、快速部署。
+类似的工具还有jekyll、hexo等，之所以选择Hugo是因为Hugo的性能是这几个中最高的&lt;/p>
+&lt;p>&lt;code>主题&lt;/code>选用
+&lt;a href="https://gitee.com/hugo-next/hugo-theme-next" title="NEXT主题" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+NEXT主题
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>,
+也就是本网站所用的主题; NEXT主题功能很完善，可配置项也很多，非常推荐用&lt;/p>
+&lt;blockquote>
+&lt;p>以下包找不到,或下载有困难,可以通过我的个人微信公众号回复关键词下载, 如无对应资源也可以通过微信公众号联系我&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>注: 本文环境win11&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
