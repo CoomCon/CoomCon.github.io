@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一匹大懒虫</title><link>/post/</link><description>Recent content in Posts on 一匹大懒虫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 19 Oct 2023 21:02:32 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>个人网站搭建 (一) 环境搭建</title><link>/post/2_1_hugo_my_site_next.html</link><pubDate>Thu, 19 Oct 2023 21:02:32 +0800</pubDate><guid>/post/2_1_hugo_my_site_next.html</guid><description>&lt;p>搭建个人网站的&lt;code>工具&lt;/code>采用
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 一匹大懒虫</title><link>/post/</link><description>Recent content in Posts on 一匹大懒虫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 21 Oct 2023 21:02:32 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>个人网站搭建 (一) 环境搭建</title><link>/post/2_1_hugo_my_site_next.html</link><pubDate>Thu, 19 Oct 2023 21:02:32 +0800</pubDate><guid>/post/2_1_hugo_my_site_next.html</guid><description>&lt;p>搭建个人网站的&lt;code>工具&lt;/code>采用
 &lt;a href="https://gohugo.io/" title="Hugo" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 Hugo
 &lt;i class="fa fa-external-link-alt">&lt;/i>
@@ -10,10 +10,4 @@ Hugo
 NEXT主题
 &lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>,
-也就是本网站所用的主题; NEXT主题功能很完善，可配置项也很多，非常推荐用&lt;/p>
-&lt;blockquote>
-&lt;p>以下包找不到,或下载有困难,可以通过我的个人微信公众号回复关键词下载, 如无对应资源也可以通过微信公众号联系我&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>注: 本文环境win11&lt;/p>
-&lt;/blockquote></description></item><item><title>VSCode插件开发报错处理</title><link>/post/1_vscode_yo_code.html</link><pubDate>Sun, 10 Sep 2023 21:02:32 +0800</pubDate><guid>/post/1_vscode_yo_code.html</guid><description>&lt;p>整理VSCode插件开发过程中遇到的错误及其处理方式，如运行 &lt;code>yo code&lt;/code> 报错 &lt;code>Unexpected token '('&lt;/code> 等问题&lt;/p></description></item><item><title>Hello</title><link>/post/hello/</link><pubDate>Sun, 15 Oct 2023 16:25:19 +0800</pubDate><guid>/post/hello/</guid><description/></item></channel></rss>
+也就是本网站所用的主题; NEXT主题功能很完善，可配置项也很多，非常推荐用&lt;/p></description></item><item><title>VSCode插件开发报错处理</title><link>/post/1_vscode_yo_code.html</link><pubDate>Sun, 10 Sep 2023 21:02:32 +0800</pubDate><guid>/post/1_vscode_yo_code.html</guid><description>&lt;p>整理VSCode插件开发过程中遇到的错误及其处理方式，如运行 &lt;code>yo code&lt;/code> 报错 &lt;code>Unexpected token '('&lt;/code> 等问题&lt;/p></description></item><item><title>无校园网如何免费查看文献(2023-10-22更新)</title><link>/post/3_1_paper_download.html</link><pubDate>Sat, 21 Oct 2023 21:02:32 +0800</pubDate><guid>/post/3_1_paper_download.html</guid><description>&lt;p>社会人士如何免费查看知网等文献资料,持续更新……&lt;/p></description></item></channel></rss>
